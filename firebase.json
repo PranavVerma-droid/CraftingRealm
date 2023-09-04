@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "main",
+    "site": "craftingrealm",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
