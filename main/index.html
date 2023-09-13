@@ -23,7 +23,7 @@
         <h1>Game Elements</h1>
         <p>A Bungeecord Networking Server for Survival, Creative, & SkyBlock!</p>
         <p>Hi there! You have landed onto the website of CraftingRealm SMP! This SMP Has Loads of fun things to do and make new friends!!</p>
-        <button class="button"><a href="https://discord.gg/RjtZekTcQm" style="text-decoration: none; font-family: 'Poppins', sans-serif;">Learn More</a></button>
+        <button class="button" style="border: 2px solid black;"><a href="https://discord.gg/RjtZekTcQm" style="text-decoration: none; font-family: 'Poppins', sans-serif;">Learn More</a></button>
     </div>
 
     <div class="container">
@@ -45,11 +45,14 @@
 
     <div class="container">
         <h1>Old World Download Links</h1>
-        <button class="button"><a href="http://access.craftingrealm.tk:8284/?r=/download&path=L01pbmVjcmFmdC9BTEwtU0VSVkVSLUZJTEVTLnppcA%3D%3D" style="text-decoration: none; font-family: 'Poppins', sans-serif;">Download Server Files</a></button>
+        <p>These are the Download Links for CraftingRealm Season 1 and 2 (And other Miscellaneous Things):</p>
+        <button class="button" style="border: 2px solid black;"><a href="http://access.craftingrealm.tk:8284/?r=/download&path=L01pbmVjcmFmdC9BTEwtU0VSVkVSLUZJTEVTLnppcA%3D%3D" style="text-decoration: none; font-family: 'Poppins', sans-serif;">Download Server Files</a></button>
     </div>
 
     <div id="app" class="container">
         <h1 class="text-2xl font-bold mb-4">Server Status</h1>
+
+      <div style="border: 2px solid black;">
         <div v-if="loading" class="text-gray-500">Loading...</div>
         <div v-else-if="error" class="text-red-500">{{ error }}</div>
         <div v-else>
@@ -58,6 +61,7 @@
             <div class="text-gray-500">Players online: <b>{{ players }}</b></div>
             <div class="text-gray-500">Version: <b>{{ version.name_clean }}</b></div>
         </div>
+      </div>
     </div>
 
     <center><footer>
