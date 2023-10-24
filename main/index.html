@@ -1,108 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CraftingRealm SMP</title>
+    <title>Welcome to CraftingRealm SMP</title>
     <link rel="icon" href="Images/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="CSS/index.css">
 </head>
 <body>
-    <header>
-        <h1 style="color: black;">CraftingRealm SMP</h1>
+    <header class="hero">
+        <div class="overlay">
+            <h1 style="font-family: 'JetBrains Mono', monospace;">Welcome to CraftingRealm SMP</h1>
+            <p style="font-family: 'JetBrains Mono', monospace;">Your Adventure Awaits!</p>
+            <a class="button" href="https://discord.gg/RjtZekTcQm">Join Now</a>
+        </div>
     </header>
 
-    <div class="parallax">
-        <div class="parallax-overlay"></div>
-        <div class="hero-content">
-            <h1>Welcome to CraftingRealm SMP</h1>
-            <p>Your Adventure Awaits!</p>
+    <section class="about">
+        <div class="container">
+            <h2>Discover CraftingRealm SMP</h2>
+            <p>Welcome to a world of endless possibilities. CraftingRealm SMP is a thriving community of adventurers, builders, and creators. Join us in an epic journey through Survival, Creative, and SkyBlock game modes. Unleash your creativity, make new friends, and embark on exciting quests.</p>
         </div>
-    </div>
-    <hr>
-    <div class="container">
-        <h1>Game Elements</h1>
-        <p>A Bungeecord Networking Server for Survival, Creative, & SkyBlock!</p>
-        <p>Hi there! You have landed onto the website of CraftingRealm SMP! This SMP Has Loads of fun things to do and make new friends!!</p>
-        <button class="button" style="border: 2px solid black;"><a href="https://discord.gg/RjtZekTcQm" style="text-decoration: none; font-family: 'Poppins', sans-serif;">Learn More</a></button>
-    </div>
+    </section>
 
-    <div class="container">
-        <img src="https://static.wixstatic.com/media/11062b_8f6239f8828c4a7e93d3d644bc62b477~mv2.jpeg/v1/fill/w_1853,h_850,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_8f6239f8828c4a7e93d3d644bc62b477~mv2.jpeg"
-            alt="Minecraft Jungle" width="100%">
-        <div class="centered" style="font-family: 'Poppins', sans-serif; font-size: 1vw;">
-            <h1><b>All About Us</b>
+    <section class="community">
+        <div class="container">
+            <h2>Our Vibrant Community</h2>
+            <p>CraftingRealm SMP is more than just a server; it's a diverse and welcoming community. Whether you're a seasoned player or just starting, our doors are open. Our Cracked mode ensures everyone can enjoy the game. Join us and be a part of this incredible world.</p>
         </div>
-        <div class="centered" style="font-family: 'Poppins', sans-serif; font-size: 1vw;">
-            We are a modest community that will welcome anyone to our server!
-            Cracked mode is Always on so people who have not bought Minecraft yet can still play on our server!
+    </section>
+
+    <section class="join">
+        <div class="container">
+            <h2>Ready to Join?</h2>
+            <p>If you're eager to dive into the action, click the button below to join our Discord server. If you prefer another way to connect with us, head to our <a href="https://web.craftingrealm.tk/contact.html">Contact Page</a> or send us an email at <a href="mailto:pranav@verma.net.in">pranav@verma.net.in</a>. We're excited to have you!</p>
+            <a class="button" href="https://discord.gg/RjtZekTcQm">Join Discord</a>
         </div>
-    </div>
+    </section>
 
-    <div class="container">
-        <h1>Other Ways to Join</h1>
-        <p>If you don't wanna join the discord, and still wanna join the minecraft servers, Please Contact in the <a href="https://web.craftingrealm.tk/contact.html">Contact Page</a> or contact me on my Email at <a href="mailto:pranav@verma.net.in">pranav@verma.net.in</a>.</p>
-    </div>
-
-    <div class="container">
-        <h1>Old World Download Links</h1>
-        <p>These are the Download Links for CraftingRealm Season 1 and 2 (And other Miscellaneous Things):</p>
-        <button class="button" style="border: 2px solid black;"><a href="http://access.craftingrealm.tk:8284/" style="text-decoration: none; font-family: 'Poppins', sans-serif;">Download Server Files</a></button>
-    </div>
-
-    <div id="app" class="container">
-        <h1 class="text-2xl font-bold mb-4">Server Status</h1>
-
-      <div style="border: 2px solid black;">
-        <div v-if="loading" class="text-gray-500">Loading...</div>
-        <div v-else-if="error" class="text-red-500">{{ error }}</div>
-        <div v-else>
-            <div class="text-green-500">The server is online!</div><br><br>
-            <div class="text-gray-500">IP address: <b>{{ ip }}</b></div>
-            <div class="text-gray-500">Players online: <b>{{ players }}</b></div>
-            <div class="text-gray-500">Version: <b>{{ version.name_clean }}</b></div>
+    <section class="downloads">
+        <div class="container">
+            <h2>Old World Downloads</h2>
+            <p>For those who want to revisit the past, we've got you covered. Download CraftingRealm Season 1, 2, and 3, as well as other miscellaneous files. Relive the memories of previous adventures.</p>
+            <a class="button" href="http://access.craftingrealm.tk:8284" style="transform: translateY(10px);">Download Old Worlds</a>
         </div>
-      </div>
-    </div>
+    </section>
 
-    <center><footer>
-        <p class="center jetmono" style="font-size: 25px;">INFINITY X</p>
-        <p class="center jetmono" style="font-size: 15px;">pranav@verma.net.in</p>
-        <p class="center jetmono" style="font-size: 12px;">Proudly Created by Pranav Verma. <a href="https://github.com/PranavVerma-droid">https://github.com/PranavVerma-droid</a></p>
-    </footer></center>
+    <section class="server-status">
+        <div class="container">
+            <h2>Server Status</h2>
+            <div id="app">
+                <div class="status-info">
+                    <p class="status-message" v-if="loading">Checking server status...</p>
+                    <p class="status-message" v-else-if="error">{{ error }}</p>
+                    <div class="status-details" v-else>
+                        <p class="ip-info"><span class="status-label">IP address:</span> <span class="status-value">{{ ip }}</span></p>
+                        <p class="players-info"><span class="status-label">Players online:</span> <span class="status-value">{{ players }}</span></p>
+                        <p class="version-info"><span class="status-label">Version:</span> <span class="status-value">{{ version.name_clean }}</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="footer-text">CraftingRealm SMP &copy; 2023</p>
+    </footer>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
-    <script>
-        const app = Vue.createApp({
-          data() {
-            return {
-              loading: true,
-              error: null,
-              players: null,
-              ip: null,
-              version: null
-            };
-          },
-          mounted() {
-            fetch("https://api.mcstatus.io/v2/status/java/play.craftingrealm.tk")
-              .then(response => response.json())
-              .then(data => {
-                this.loading = false;
-                if (data.online) {
-                  this.players = data.players.online;
-                  this.ip = data.host;
-                  this.version = data.version;
-                } else {
-                  this.error = "The server is offline.";
-                }
-              })
-              .catch(error => {
-                this.loading = false;
-                this.error = "An error occurred while fetching the server status.";
-            });
-    }
-  });
-
-  app.mount("#app");
-    </script>
+    <script src="JS/app.js"></script>
 </body>
 </html>
