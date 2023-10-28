@@ -1,7 +1,6 @@
 {
   "hosting": {
     "public": "main",
-    "site": "craftingrealm",
     "ignore": [
       "firebase.json",
       "**/.*",

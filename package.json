@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PranavVerma-droid/CraftingRealm/issues"
   },
-  "homepage": "https://github.com/PranavVerma-droid/CraftingRealm#readme"
+  "homepage": "https://github.com/PranavVerma-droid/CraftingRealm#readme",
+  "dependencies": {
+    "firebase": "^10.5.2"
+  }
 }
