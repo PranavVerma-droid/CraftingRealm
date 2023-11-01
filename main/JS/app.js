@@ -1,11 +1,11 @@
-const app = Vue.createApp({
+  const app = Vue.createApp({
     data() {
         return {
             loading: true,
             error: null,
             players: null,
             ip: null,
-            version: null
+            version: null,
         };
     },
     mounted() {

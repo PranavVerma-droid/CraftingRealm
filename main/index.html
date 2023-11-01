@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,24 @@
     <link rel="icon" href="Images/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="CSS/index.css">
 </head>
+
 <body>
+
+    <section id="nav">
+        <nav style="padding-left: 1vw;">
+            <h1 class="jetmono">CraftingRealm SMP</h1>
+            <ul style="list-style-type: none;display: flex; gap: 10px;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="http://access.craftingrealm.tk:8284/#/?cd=%2FCraftingRealm%20Files">World Download Link</a></li>
+                <li><a href="https://discord.gg/RjtZekTcQm">Join Discord Server</a></li>
+                <li><a href="https://linktr.ee/craftingrealm">Vote for Server</a></li>
+                <li><a href="https://craftingrealm.tebex.io">Server Shop</a></li>
+                <li><a href="https://github.com/PranavVerma-droid">Server Owner Details</a></li>
+            </ul>
+        </nav>
+    </section>
+
+
     <header class="hero">
         <div class="overlay">
             <h1 style="font-family: 'JetBrains Mono', monospace;">Welcome to CraftingRealm SMP</h1>
@@ -19,22 +37,28 @@
     <section class="about">
         <div class="container">
             <h2>Discover CraftingRealm SMP</h2>
-            <p>Welcome to a world of endless possibilities. CraftingRealm SMP is a thriving community of adventurers, builders, and creators. Join us in an epic journey through Survival, Creative, and SkyBlock game modes. Unleash your creativity, make new friends, and embark on exciting quests.</p>
-            <a href="https://minecraft-server.net/category//" title="Survival Minecraft Server List">Survival Minecraft Server List</a>
+            <p>Welcome to a world of endless possibilities. CraftingRealm SMP is a thriving community of adventurers,
+                builders, and creators. Join us in an epic journey through Survival, Creative, and SkyBlock game modes.
+                Unleash your creativity, make new friends, and embark on exciting quests.</p>
         </div>
     </section>
 
     <section class="community">
         <div class="container">
             <h2>Our Vibrant Community</h2>
-            <p>CraftingRealm SMP is more than just a server; it's a diverse and welcoming community. Whether you're a seasoned player or just starting, our doors are open. Our Cracked mode ensures everyone can enjoy the game. Join us and be a part of this incredible world.</p>
+            <p>CraftingRealm SMP is more than just a server; it's a diverse and welcoming community. Whether you're a
+                seasoned player or just starting, our doors are open. Our Cracked mode ensures everyone can enjoy the
+                game. Join us and be a part of this incredible world.</p>
         </div>
     </section>
 
     <section class="join">
         <div class="container">
             <h2>Ready to Join?</h2>
-            <p>If you're eager to dive into the action, click the button below to join our Discord server. If you prefer another way to connect with us, head to our <a href="https://web.craftingrealm.tk/contact.html">Contact Page</a> or send us an email at <a href="mailto:pranav@verma.net.in">pranav@verma.net.in</a>. We're excited to have you!</p>
+            <p>If you're eager to dive into the action, click the button below to join our Discord server. If you prefer
+                another way to connect with us, head to our <a href="https://web.craftingrealm.tk/contact.html">Contact
+                    Page</a> or send us an email at <a href="mailto:pranav@verma.net.in">pranav@verma.net.in</a>. We're
+                excited to have you!</p><br>
             <a class="button" href="https://discord.gg/RjtZekTcQm">Join Discord</a>
         </div>
     </section>
@@ -42,8 +66,10 @@
     <section class="downloads">
         <div class="container">
             <h2>Old World Downloads</h2>
-            <p>For those who want to revisit the past, we've got you covered. Download CraftingRealm Season 1, 2, and 3, as well as other miscellaneous files. Relive the memories of previous adventures.</p>
-            <a class="button" href="http://access.craftingrealm.tk:8284" style="transform: translateY(10px);">Download Old Worlds</a>
+            <p>For those who want to revisit the past, we've got you covered. Download CraftingRealm Season 1, 2, and 3,
+                as well as other miscellaneous files. Relive the memories of previous adventures.</p><br>
+            <a class="button" href="http://access.craftingrealm.tk:8284" style="transform: translateY(10px);">Download
+                Old Worlds</a>
         </div>
     </section>
 
@@ -55,9 +81,12 @@
                     <p class="status-message" v-if="loading">Checking server status...</p>
                     <p class="status-message" v-else-if="error">{{ error }}</p>
                     <div class="status-details" v-else>
-                        <p class="ip-info"><span class="status-label">IP address:</span> <span class="status-value">{{ ip }}</span></p>
-                        <p class="players-info"><span class="status-label">Players online:</span> <span class="status-value">{{ players }}</span></p>
-                        <p class="version-info"><span class="status-label">Version:</span> <span class="status-value">{{ version.name_clean }}</span></p>
+                        <p class="ip-info"><span class="status-label">IP address:</span> <span class="status-value">{{
+                                ip }}</span></p>
+                        <p class="players-info"><span class="status-label">Players online:</span> <span
+                                class="status-value">{{ players }}</span></p>
+                        <p class="version-info"><span class="status-label">Version:</span> <span class="status-value">{{
+                                version.name_clean }}</span></p>
                     </div>
                 </div>
             </div>
@@ -68,7 +97,12 @@
         <p class="footer-text">CraftingRealm SMP &copy; 2023</p>
     </footer>
 
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database-compat.js"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
     <script src="JS/app.js"></script>
+
+
 </body>
+
 </html>

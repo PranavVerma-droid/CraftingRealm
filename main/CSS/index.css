@@ -87,6 +87,18 @@ h2 {
     color: #333;
 }
 
+
+
+li {
+    padding: 10px;
+}
+
+.jetmono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
