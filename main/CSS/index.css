@@ -25,7 +25,7 @@ a:hover {
 
 /* Header styles */
 .hero {
-    background: url('https://static.wixstatic.com/media/11062b_8f6239f8828c4a7e93d3d644bc62b477~mv2.jpeg/v1/fill/w_1853,h_850,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_8f6239f8828c4a7e93d3d644bc62b477~mv2.jpeg') center/cover no-repeat;
+    background: url('https://firebasestorage.googleapis.com/v0/b/craftingrealmz.appspot.com/o/Pictures%2Fbackground.png?alt=media&token=75eab863-5ffc-44f0-98bb-ad1ead99d839') center/cover no-repeat;
     height: 100vh;
     position: relative;
     color: white;
